@@ -68,11 +68,24 @@ color: #00BFF0; /* Change the color to your desired hover color */
     margin-top: 14%;
     padding-right: 0;
     padding-left: 0;
-    background-color: #e9ecef91;
+    background-color: #22252775;
+}
+.lead {
+    color: white;
+}
+.display-4 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
 }
 .container {min-height: 100%;
 position: relative;
 padding: 4%;}
+.col-md-4 {
+    background-color: #000000;
+    color: white
+}
 .footer {
     position: absolute;
     width: 100%;
