@@ -25,7 +25,7 @@ body {
 .glowButtonWrapper {
 	position: relative;
 	margin: 1.25em auto;
-	padding: 0;
+	padding: 36px;
 	display: table;
 	transition: all 150ms linear;
 }
@@ -217,7 +217,7 @@ html, body {
 }
 body, h1, h2, h3, p, div {
     margin: 0;
-    padding: 1%;
+ 
     color: white;
 }
 
@@ -304,6 +304,13 @@ body {
 
   min-height: 100vh;
 }
+.blockquote {
+    padding: 4%;
+    background-color: #00000096;
+    /* margin-bottom: 1rem; */
+    font-size: 1.25rem;
+    border-radius: 20px;
+}
 
 section {
   display: flex;
@@ -312,11 +319,6 @@ section {
   align-items: center;
   width: 100%;
   
-}
-.span1
-   {color: #ffc807;
-    font-weight: 600;
-    font-size: 1.3rem;
 }
 
 .recipe-container {
@@ -595,12 +597,14 @@ section {
   }
   .swiper {
     width: 100%;
+    padding: 30px;
   }
   
 }
 
 @media (max-width: 765px) {
     .swiper {
+        padding: 2%;
         width: 100%;
       }
       .display-4 {
@@ -637,7 +641,7 @@ section {
     .recipe-container {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 24%;
+        margin-top: 28%;
         background: rgba(189, 181, 181, 0.1);
         box-shadow: 0 4px 30px #e91e63;
         backdrop-filter: blur(10px);
@@ -655,7 +659,7 @@ section {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-    padding: 0;
+    padding: 30px;
 }
 .post-body {
     display: flex;
