@@ -272,8 +272,10 @@ color: #00BFF0; /* Change the color to your desired hover color */
     font-family: cinzel;
 }
 .display-4 {
-    color: white;
-    font-size: 3rem;
+    font-family: serif;
+    padding: 2%;
+    color: #c7ff63;
+    font-size: 2rem;
     font-weight: 300;
     line-height: 1.2;
 }
@@ -608,7 +610,7 @@ section {
         width: 100%;
       }
       .display-4 {
-        color: white;
+        
         font-size: 1.2rem;
         font-weight: 300;
         line-height: 1.2;
@@ -633,8 +635,10 @@ section {
         font-family: cinzel;
     }
     .display-4 {
-        color: white;
-        font-size: 1.2rem;
+        font-family: serif;
+        padding: 2%;
+        color: #8BC34A;
+        font-size: 2rem;
         font-weight: 300;
         line-height: 1.2;
     }
