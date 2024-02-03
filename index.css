@@ -257,25 +257,26 @@ color: #00BFF0; /* Change the color to your desired hover color */
  .navbar-dark .navbar-nav .nav-item.active .nav-link {
     color: #F23580; /* Change this to the desired color */
 }
-.jumbotron-fluid {
-    margin-right: auto;
-    margin-left: auto;
-    width: 90%;
-    /* padding: 4%; */
-    margin-top: 14%;
-    padding-right: 0;
-    padding-left: 0;
-    background-color: #22252775;
-}
+
 .lead {font-size: 1.75rem;
     color: #c7ff63;
     font-family: cinzel;
+}
+.jumbotron {
+  margin-top: 14%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 85%;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #015b734f;
+  border-radius: 1.3rem;
 }
 .display-4 {
     font-family: serif;
     padding: 2%;
     color: #c7ff63;
-    font-size: 2rem;
+   
     font-weight: 300;
     line-height: 1.2;
 }
@@ -347,7 +348,7 @@ section {
 }
 
 .swiper {
-
+  padding: 2%;
  width: 100%;
   height: 100%;
 
@@ -587,9 +588,7 @@ section {
 /* MEDIA QUERIES */
 
 @media (max-width: 1200px) { 
-  .swiper {
-      width: 100%;
-    }
+
     
 }
 
@@ -597,24 +596,19 @@ section {
   #recipes {
     padding: 60px 80px;
   }
-  .swiper {
-    width: 100%;
-    padding: 30px;
-  }
+ 
   
 }
 
 @media (max-width: 765px) {
-    .swiper {
-        padding: 2%;
-        width: 100%;
-      }
+    
       .display-4 {
         
         font-size: 1.2rem;
         font-weight: 300;
         line-height: 1.2;
     }
+ 
     
   
 }
@@ -628,6 +622,8 @@ section {
         font-size: .65rem;
         color: #F23580;
     }
+   
+
     .lead {
         font-weight: 500;
         font-size: 1.3rem;
@@ -659,12 +655,7 @@ section {
     padding: 40px 40px;
   }
 
-  .swiper {
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-    padding: 30px;
-}
+
 .post-body {
     display: flex;
     flex-direction: column;
