@@ -220,6 +220,8 @@ body, h1, h2, h3, p, div {
  
     color: white;
 }
+
+
 .menu-icon-img img {
     width: 46px;
 }
@@ -591,10 +593,15 @@ section {
     
 }
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   #recipes {
     padding: 60px 80px;
   }
+#navbarNav.navbar-collapse.collapse{
+    justify-content: flex-end; 
+   
+   
+}
  
   
 }
