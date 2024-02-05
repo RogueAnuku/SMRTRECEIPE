@@ -220,7 +220,6 @@ body, h1, h2, h3, p, div {
  
     color: white;
 }
-
 .menu-icon-img img {
     width: 46px;
 }
@@ -238,7 +237,7 @@ z-index: 1030;
  }
  .navbar-name {
     /* font-family: cinzel; */
-    font-size: 1.3rem;
+   
     color: #F23580;
 }
  .navbar-dark .navbar-toggler {
