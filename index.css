@@ -263,24 +263,7 @@ color: #00BFF0; /* Change the color to your desired hover color */
     color: #c7ff63;
     font-family: cinzel;
 }
-.jumbotron {
-  margin-top: 14%;
-  margin-right: auto;
-  margin-left: auto;
-  width: 85%;
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  background-color: #015b734f;
-  border-radius: 1.3rem;
-}
-.display-4 {
-    font-family: serif;
-    padding: 2%;
-    color: #c7ff63;
-   
-    font-weight: 300;
-    line-height: 1.2;
-}
+
 .container {min-height: 100%;
 position: relative;
 padding: 4%;}
@@ -588,12 +571,34 @@ section {
   
 }
 
+
 /* MEDIA QUERIES */
 
-@media (max-width: 1200px) { 
+@media (min-width: 1200px) { 
+  .display-4 {
+    font-family: serif;
+    padding: 12%;
+    color: #c7ff63;
+   
+    font-weight: 300;
+    line-height: 1.2;
+}
 
     
 }
+@media (max-width: 1024px) { 
+  .display-4 {
+    font-family: serif;
+    padding: 12%;
+    color: #c7ff63;
+   
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+    
+}
+
 
 @media (max-width: 992px) {
   #recipes {
@@ -604,18 +609,29 @@ section {
    
    
 }
+.display-4 {
+  font-family: serif;
+  padding: 12%;
+  color: #c7ff63;
+ 
+  font-weight: 300;
+  line-height: 1.2;
+}
+
  
   
 }
 
 @media (max-width: 765px) {
     
-      .display-4 {
-        
-        font-size: 1.2rem;
-        font-weight: 300;
-        line-height: 1.2;
-    }
+  .display-4 {
+    /* margin-top: 7%; */
+    font-family: serif;
+    padding: 10%;
+    color: #c7ff63;
+    font-weight: 300;
+    line-height: 1.2;
+}
  
     
   
@@ -639,8 +655,9 @@ section {
         font-family: cinzel;
     }
     .display-4 {
+      margin-top: 22%;
         font-family: serif;
-        padding: 2%;
+        padding: 12%;
         color: #8BC34A;
         font-size: 2rem;
         font-weight: 300;
